@@ -1,0 +1,27 @@
+package week04;
+
+public class TrafficLightSelector {
+
+
+    public static void main(String[] args) {
+
+        char colour = 'r';
+        switch (colour) {
+
+            case 'R':
+            case 'r':
+                System.out.println("red Light");
+                break;
+            case 'O':
+            case 'o':
+                System.out.println("Orange Light");
+                break;
+            case 'G':
+            case 'g':
+                System.out.println("Green Light");
+                break;
+            default:
+                System.out.println("Invalid Light");
+        }
+    }
+}
